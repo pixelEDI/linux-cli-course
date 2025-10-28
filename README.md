@@ -3,6 +3,9 @@
 Willkommen zu den Kursunterlagen **Linux CLI – Die Power der universellen Linux-Befehle**  
 
 Dieses Repository enthält alle **Übungsdateien**, die im Online-Kurs/Buch verwendet werden.  
+
+> <https://pixeledi.eu/akademie/linux-cli>
+
 Du kannst damit Schritt für Schritt alle Beispiele nachvollziehen und selbst ausprobieren.
 
 ## 🧰 Inhalt
