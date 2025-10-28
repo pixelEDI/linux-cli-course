@@ -1,0 +1,1 @@
+Das Leben findet einen Weg – besonders in Bash-Skripten.

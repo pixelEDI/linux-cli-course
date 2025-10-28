@@ -1,0 +1,5 @@
+bash
+fish
+zsh
+ash
+dash

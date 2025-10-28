@@ -1,0 +1,2 @@
+drwxr-xr-x user users 4096 Desktop
+-rw-r--r-- user users 1234 notes.txt

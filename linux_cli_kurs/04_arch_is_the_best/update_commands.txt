@@ -1,0 +1,4 @@
+pacman -Syu
+apt update && apt upgrade
+emerge --sync
+zypper dup

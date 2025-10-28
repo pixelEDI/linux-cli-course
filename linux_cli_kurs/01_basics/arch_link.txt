@@ -1,0 +1,1 @@
+../04_arch_is_the_best/manifesto.txt

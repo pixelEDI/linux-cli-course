@@ -1,0 +1,1 @@
+echo 'Ich liebe Linux!'
