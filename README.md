@@ -4,7 +4,7 @@ Willkommen zu den Kursunterlagen **Linux CLI – Die Power der universellen Linu
 
 Dieses Repository enthält alle **Übungsdateien**, die im Online-Kurs/Buch verwendet werden.  
 
-> <https://pixeledi.eu/akademie/linux-cli>
+> https://pixeledi.eu/akademie/linux-cli
 
 Du kannst damit Schritt für Schritt alle Beispiele nachvollziehen und selbst ausprobieren.
 
@@ -12,7 +12,7 @@ Du kannst damit Schritt für Schritt alle Beispiele nachvollziehen und selbst au
 
 - **`linux_cli_dummydata.sh`**  
   Ein Bash-Skript, das automatisch alle Übungsordner und Beispieldateien erstellt.  
-  Es dient als Ausgangspunkt für viele Kapitel im Buch.
+  Es dient als Ausgangspunkt für viele Kapitel im Buch/Kurs.
 
 - **`dummydata/`**  
   Eine bereits vorbereitete Version der Testdaten – falls das Skript bei dir nicht funktioniert.  
@@ -39,7 +39,7 @@ cd ~
 ```
 
 Nach der Ausführung findest du alle Testordner und -dateien,
-die du für die Übungen im Buch brauchst.
+die du für die Übungen im Kurs/Buch brauchst.
 
 ## ⚙️ Fallback (falls das Skript nicht funktioniert)
 
