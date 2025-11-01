@@ -1,14 +1,20 @@
 # Linux CLI Kurs – Testdaten & Übungen
 
-Willkommen zu den Kursunterlagen **Linux CLI – Die Power der universellen Linux-Befehle**
+Willkommen zu den Kursunterlagen **Linux CLI – Die Macht der universellen Linux-Befehle**.
 
-Dieses Repository enthält alle **Übungsdateien**, die im Online-Kurs/Buch verwendet werden.
 
-> [https://pixeledi.eu/akademie/linux-cli](https://pixeledi.eu/akademie/linux-cli)
+Dieses Repository enthält alle **Übungsdateien**, die im Online-Kurs und Buch verwendet werden.  
+Damit kannst du Schritt für Schritt alle Beispiele selbst nachvollziehen und ausprobieren.
 
-Du kannst damit Schritt für Schritt alle Beispiele nachvollziehen und selbst ausprobieren.
+📘 **Kursseite:** [pixeledi.eu/akademie/linux-cli](https://pixeledi.eu/akademie/linux-cli)
 
----
+
+## 🧭 Linux CLI Cheatsheet 
+
+> 🧠 **Tipp:**  
+> Meine kompakte Zusammenfassung aller wichtigen Befehle findest du im folgenden Dokument: 
+> 👉 [**Linux CLI Cheatsheet**](./linux_cli_cheatsheet.md)
+
 
 ## 🧰 Inhalt
 
