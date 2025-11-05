@@ -66,6 +66,65 @@ oder auf einem eingeschränkten System – kannst du die Testdaten auch **manuel
 2. Entpacke den Ordner in dein Home-Verzeichnis (`~/`)
 3. Du kannst sofort mit den Übungen starten, ohne das Skript auszuführen.
 
+
+## Kurssruktur
+
+```mermaid
+flowchart TD
+    A[Start / Kursorientierung] --> B[Linux installieren]
+    B --> C[Einleitung: Grundlagen von Linux]
+    C --> D[Terminal & Shell verstehen]
+
+    D --> E[Orientierung im Dateisystem]
+    D --> F[Hilfe & man-Pages nutzen]
+    D --> G[Tastaturkürzel & Navigation]
+
+    E --> H[Dateien & Verzeichnisse erstellen]
+    H --> I[Dateien verwalten]
+    I --> J[Arbeiten mit Dateien]
+    J --> K[Standard-Streams & Umleitungen]
+    K --> L[Pipelines]
+    L --> M[Shell-Expansionen]
+    M --> N[Suchen & Finden mit find & grep]
+
+    N --> O[Dateiberechtigungen & Eigentümer]
+    O --> P[Benutzer & Administratorrechte]
+    P --> Q[Umgebungsvariablen & Aliase]
+    Q --> R[Bash-Scripting]
+    R --> S[Cron & Automatisierung]
+    S --> T[cmdchallenges / Übungen]
+    T --> U[Abschluss & Ausblick]
+
+    subgraph Grundlagenphase
+        B
+        C
+        D
+    end
+
+    subgraph Praxisphase
+        E
+        F
+        G
+        H
+        I
+        J
+        K
+        L
+        M
+        N
+    end
+
+    subgraph Vertiefungsphase
+        O
+        P
+        Q
+        R
+        S
+        T
+        U
+    end
+```
+
 ## 💡 Tipp
 
 Wenn du eigene Anpassungen machst oder zusätzliche Beispiele entwickelst,
