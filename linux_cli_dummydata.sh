@@ -151,6 +151,18 @@ EOF
 
 echo "📄 Datei 'big_list.txt' mit über 50 Einträgen (inkl. Duplikaten) erstellt."
 
+
+# -----------------------------------------------
+# Neue Datei: csv people
+# -----------------------------------------------
+cat <<EOF > 02_files/people.csv
+id,name,role,shell,home
+1,markus,admin,/bin/bash,/home/markus
+2,anna,user,/bin/zsh,/home/anna
+3,tom,user,/bin/bash,/home/tom
+4,lara,admin,/bin/fish,/home/lara
+EOF
+
 # -----------------------------------------------
 # Neue Datei: 03_animals.txt
 # -----------------------------------------------
