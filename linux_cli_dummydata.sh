@@ -254,6 +254,8 @@ done
 
 echo "✅ 300 Rechnungsdateien erzeugt."
 
+echo "Ich habe mich im Ordner 06 reingeschmuggelt." >  06_invoices/ich_bin_gar_keine_rechnung.txt
+
 # -----------------------------------------------
 # 7. Gemischte Dateien (07_mixed_files)
 # -----------------------------------------------
@@ -316,3 +318,4 @@ echo "Deine Linux-Übungsumgebung wurde erstellt unter:"
 echo "   $WORK_DIR"
 echo
 echo "Have fun (c) pixeledi"
+
