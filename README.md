@@ -7,6 +7,7 @@ Dieses Repository enthält alle **Übungsdateien**, die im Online-Kurs und Buch 
 Damit kannst du Schritt für Schritt alle Beispiele selbst nachvollziehen und ausprobieren.
 
 📘 **Kursseite:** [pixeledi.eu/akademie/linux-cli](https://pixeledi.eu/akademie/linux-cli)
+🎥 **Aktuelle Linux Videos:** [https://www.youtube.com/watch?v=Q0q8nSbrT3g&list=PLluslK6uBf4uDqo5uTeAqODAzdW0yEi7u](https://www.youtube.com/watch?v=Q0q8nSbrT3g&list=PLluslK6uBf4uDqo5uTeAqODAzdW0yEi7u)
 
 
 ## 🧭 Linux CLI Cheatsheet 

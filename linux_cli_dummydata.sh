@@ -164,6 +164,20 @@ id,name,role,shell,home
 EOF
 
 # -----------------------------------------------
+# Neue Datei: zum testen von grep 
+# -----------------------------------------------
+cat <<EOF > 02_files/greptest.txt
+Protokoll
+Prototyp
+Karotte
+Brot
+Rot ist meine Lieblingsfarbe.
+Ich liebe rotes Licht.
+rot
+ROT
+EOF
+
+# -----------------------------------------------
 # Neue Datei: 03_animals.txt
 # -----------------------------------------------
 cat <<'EOF' > 01_basics/03_animals.txt
