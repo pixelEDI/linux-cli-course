@@ -36,20 +36,20 @@ $ cal April 1999
 $ sort colors.txt
 $ rm colors.txt
 $ cat notes.txt
+cal -y 2025
+befehl -option [argument]
+befehl -a -b -c
 Kommando [Option(en)] [Argument(e)]
 date
 cal -y 2025
 echo Hallo Welt
 sort text.txt
-cal -y 2025
-befehl -option [argument]
-befehl -a -b -c
 cal -3
 cal -y
 cal -y 2025
-cal -w
-cal -w -y 2025
-cal -wy 2025
+ncal -w
+ncal -w -y 2025
+ncal -wy 2025
 cal -j
 cal -y 2025
 date -u

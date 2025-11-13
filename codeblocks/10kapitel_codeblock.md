@@ -1,10 +1,10 @@
 ```
-Ctrl + l
-Ctrl + t
-Ctrl + y
+Ctrl + L
+Ctrl + T
+Ctrl + Y
 ~/.bash_history
 history
 history | less
 !73
-Ctrl + r
+Ctrl + R
 ```

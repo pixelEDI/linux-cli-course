@@ -1,9 +1,12 @@
 ```
 ./backup.sh
+echo "Hallo Welt"
+ls -l
+pwd
 nano ~/systemcheck.sh
 #!/bin/bash
 # Ein einfaches Systemstatus-Skript
-# Autor: pixeledi 
+# Autor: Markus (pixeledi)
 # Version: 1.1
 
 echo "=============================="
@@ -35,39 +38,32 @@ echo "=============================="
 echo "Fertig! ($0 wurde erfolgreich ausgeführt)"
 echo "=============================="
 chmod +x ~/systemcheck.sh
-cd ~/
+cd ~
 ./systemcheck.sh
 #!/bin/bash
 bash systemcheck.sh
 ./systemcheck.sh
 #!/usr/bin/env bash
-#!/usr/bin/env bash
-#!/usr/bin/env python3
-print("Hallo Linux, ich bin ein Python-Skript!")
-chmod +x hello.py
-./hello.py
-#!/usr/bin/env python3
 echo $PATH
 /usr/local/bin:/usr/bin:/bin:/usr/games
+which pwd
+/usr/bin/pwd
+pixel-edi-ist-der-beste
+bash: pixel-edi-ist-der-beste: command not found
 export PATH=$HOME:$PATH
-mv ~/systemcheck.sh ~/systemcheck
-ln -s ~/systemcheck.sh ~/systemcheck
-cd /etc
-systemcheck
+/usr/local/bin:/usr/bin:/bin
+/home/markus:/usr/local/bin:/usr/bin:/bin
 nano ~/.bashrc
 export PATH="$HOME:$PATH"
+export PATH="$HOME/linux_cli_kurs/03_scripts:$PATH"
 source ~/.bashrc
+systemcheck.sh
+ln -s ~/linux_cli_kurs/03_scripts/systemcheck.sh ~/linux_cli_kurs/03_scripts/systemcheck
 nano ~/linux_cli_kurs/03_scripts/cleanup.sh
 #!/bin/bash
 echo "Bereinige Logs in ~/linux_cli_kurs/07_mixed_files ..."
 rm -f ~/linux_cli_kurs/07_mixed_files/*.log
 echo "Fertig!"
 chmod +x ~/linux_cli_kurs/03_scripts/cleanup.sh
-~/linux_cli_kurs/03_scripts/cleanup.sh
-nano ~/.bashrc
-export PATH="$HOME/linux_cli_kurs/03_scripts:$PATH"
-source ~/.bashrc
 cleanup.sh
-mv cleanup.sh cleanup
-ln -s ~/linux_cli_kurs/03_scripts/cleanup.sh ~/linux_cli_kurs/03_scripts/cleanup
 ```

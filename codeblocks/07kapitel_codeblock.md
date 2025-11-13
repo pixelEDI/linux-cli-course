@@ -1,7 +1,6 @@
 ```
 sudo apt install nano        # Debian, Ubuntu, Mint
 sudo pacman -S nano          # Arch, Manjaro
-nano notizen.txt
 nano shopping.md
 Milch
 Eier

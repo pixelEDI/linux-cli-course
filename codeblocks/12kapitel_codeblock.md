@@ -15,5 +15,4 @@ cat 01_basics/doesnotexist.txt 2> errors.log
 cat 01_basics/doesnotexist.txt > errors.log
 cat 01_basics/doesnotexist.txt 2> errors.log
 ls 06_invoices/*.ods > output.log 2> errors.log
-cat 02_files/big_list.txt | sort | uniq -c | grep Apfel
 ```

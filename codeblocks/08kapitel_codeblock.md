@@ -19,11 +19,5 @@ vim 02_files/shells.txt
 :s/bash/nash/g
 :%s/bash/nash/g
 :%s/bash/nash/gc
-:%s/^d.*/[DEPRECATED] &/g
-bash
-fish
-zsh
-ash
-[DEPRECATED] dash
 :2,4s/sh/SH/g
 ```

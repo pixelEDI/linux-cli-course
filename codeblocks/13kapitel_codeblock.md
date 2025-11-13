@@ -16,7 +16,7 @@ aptgetmeoutcsv
 bashandthefuriouslog
 chaostheorytxt
 ls 06_invoices | wc -l
-cat 02_files/colors.txt | sort | uniq
-cat 02_files/colors.txt 01_basics/03_animals.txt 02_files/big_list.txt | tee all_data.txt | wc -l
+cat 02_files/big_list.txt | sort | uniq
+cat 02_files/colors.txt 01_basics/03_animals.txt 02_files/big_list.txt | tee all_data.txt 
 sort 02_files/colors.txt | tee sorted_colors.txt | head -5
 ```

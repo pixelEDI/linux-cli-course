@@ -50,19 +50,19 @@ ls 02_files/backups
 cp <quelle> <ziel>
 cd ~/linux_cli_kurs/02_files
 ls
-backup_test.sh  ls_output.txt  passwd_backup.txt  shells.txt
+ls_output.txt  passwd_backup.txt  shells.txt
 cp shells.txt shells_copy.txt
 ls
-# backup_test.sh  ls_output.txt  passwd_backup.txt  shells.txt  shells_copy.txt
+#  ls_output.txt  passwd_backup.txt  shells.txt  shells_copy.txt
 cp shells.txt backups/
 ls backups
-# hello.txt  passwd_backup.txt  backup_test.sh
+# hello.txt  passwd_backup.txt  shells.txt
 cp empty.log passwd_sample.txt sample.sh backups/
 ls backups
-# empty.log  hello.txt  passwd_sample.txt  sample.sh  shells.txt 
-cp -r 01_basics 02_files/backups/basics_copy
-ls ~/linux_cli_kurs/backups/basics_copy
+# empty.log  hello.txt  passwd_sample.txt  sample.sh  shells.txt
+cp -r 02_files 02_files_backup
+ls 02_files_backup
+cp -r 02_files/* 01_basics/backups/
 cp -r 02_files 01_basics/backups/
-cp -r 02_files/ 01_basics/backups/
 ls 01_basics/backups/
 ```

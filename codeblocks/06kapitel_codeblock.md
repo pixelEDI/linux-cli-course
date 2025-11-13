@@ -8,6 +8,7 @@ touch notizen.txt
 touch ../01_basics/newfile.txt
 touch ../06_invoices/301_new_invoice.ods
 touch projekt1.txt projekt2.txt projekt3.txt
+touch /usr/local/sbin/projekt1.txt /usr/local/sbin/projekt2.txt /usr/local/sbin/projekt3.txt
 mkdir tiere
 mkdir katzen hunde vögel
 mkdir -p tiere/hunde/welpen

@@ -16,7 +16,4 @@ type ls
 # ls ist ein Alias für 'ls --color=auto'
 which bash
 # /usr/bin/bash
-tldr ls
-sudo apt install tldr
-sudo pacman -S tldr
 ```

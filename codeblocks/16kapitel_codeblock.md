@@ -15,7 +15,6 @@ grep -C 1 "WARN" 07_mixed_files/008_logs_of_the_penguin.log
 [WARN] Kaffeevorrat kritisch niedrig!
 [OK] Bash läuft stabil.
 grep -c "Ananas" 02_files/big_list.txt
-grep -o "Apfel" 02_files/big_list.txt | wc -l
 grep -l "Rot" 02_files/*.txt
 grep -L "Rot" 02_files/*.txt
 grep -v "Blau" 02_files/colors.txt

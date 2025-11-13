@@ -14,21 +14,14 @@ sudo journalctl -p err | tac | less
 
 echo "LinuxRocks2025" | rev
 echo "backup.tar.gz" | rev | cut -d'.' -f1 | rev
-head 01_basics/distros.txt
-tail 01_basics/distros.txt
-head -n 5 01_basics/distros.txt
+head 01_basics/03_animals.txt
+tail  01_basics/03_animals.txt
+head -n 5 01_basics/distros.txt 
 tail -n 3 01_basics/distros.txt
-tail -f /var/log/syslog
-sudo journalctl -f
 ls -l 06_invoices | tail -n 5
 wc 01_basics/distros.txt
 cat 01_basics/distros.txt | wc -l
 ls 01_basics/*.txt | wc -l
-cat 01_basics/distros.txt
-echo "----"
-sort 01_basics/distros.txt
-sort -f 01_basics/distros.txt
-sort -r 02_files/colors.txt
 sort 02_files/big_list.txt | uniq
 sort 02_files/big_list.txt | uniq -d
 sort 02_files/big_list.txt | uniq -c
